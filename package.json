@@ -1,15 +1,16 @@
 {
   "name": "practice-code-wars",
   "version": "1.0.0",
-  "description": "",
+  "description": "Practica de test con ejercios de codewars y nodeschool.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.0",
+    "eslint": "^4.2.0",
     "mocha": "^3.4.2"
   }
 }
